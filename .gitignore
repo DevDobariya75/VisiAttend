@@ -1,0 +1,37 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime logs and outputs
+*.log
+backend/attendance_*.csv
+
+# Local model artifacts (downloaded automatically by script)
+res10_300x300_ssd_iter_140000.caffemodel
+deploy.prototxt
+
+# Local face dataset (privacy-sensitive) - keep folder structure only
+backend/dataset/*
+!backend/dataset/.gitkeep
+
+# Environment variables - sensitive data protection
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test

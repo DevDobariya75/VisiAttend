@@ -1,0 +1,8 @@
+opencv-python
+deepface
+numpy
+mediapipe
+pandas
+tensorflow
+psycopg2-binary
+pgvector
